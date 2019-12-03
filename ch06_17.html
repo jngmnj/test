@@ -1,0 +1,23 @@
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>boolean자료형</title>
+        
+    </head>
+    <body>
+        <h3>boolean자료형</h3>
+        <script>
+            var state, num1=0, num2=88;
+            var str1="", str2="Javascript", obj1=null;
+            var obj2=new Object();
+            
+            document.write(Boolean(num1)+'<br>'); //0 F
+            document.write(Boolean(num2)+'<br>'); //88 T
+            document.write(Boolean(str1) +'<br>'); //공백 F
+            document.write(Boolean(str2) +'<br>'); //문자열 T
+            document.write(Boolean(obj1) +'<br>'); //null F
+            document.write(Boolean(obj2) +'<br>'); //객체 T 
+            document.write(Boolean(state) +'<br>'); //undefined F
+        </script>
+    </body>
+</html>

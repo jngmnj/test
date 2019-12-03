@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+        <script>
+            var num1 = 15, num2 = 4, num3 = 15;
+            var grade = 15.0;
+            var str="80";
+
+            document.write((num1 <= num2) + '<br>');
+            document.write((num1 != num3) + '<br>');
+            document.write((num3 == grade) + '<br>');
+            document.write((num3 === grade) + '<br>');//정수도 내부적으로 실수로봄
+            document.write((num3 == 15) + '<br>');
+            document.write((num3 === "15") + '<br>');//타입비교
+            document.write((str == 80) + '<br>');//문자열이라도 내부적으로 실수로 봄 값 비교
+            document.write((str === 80)+'<br><br>');//타입을 비교
+            
+            
+        </script>
+    </body>
+</html>

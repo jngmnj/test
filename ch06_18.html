@@ -1,0 +1,23 @@
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>undefined자료형</title>
+        
+    </head>
+    <body>
+        <h3>undefined자료형</h3>
+        <script>
+            var obj=new Object();
+            var num;
+
+            document.write(obj +'<br>');
+            document.write(num +'<br>');
+            obj=null;
+            document.write(obj +'<br>');
+            obj=undefined;
+            document.write(obj +'<br>'); 
+            document.write((undefined==null) +'<br>'); //값을 비교 
+            document.write((undefined===null)); //값과 타입까지 비교 null은 object타입이다. 
+        </script>
+    </body>
+</html>

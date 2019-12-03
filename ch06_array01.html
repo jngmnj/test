@@ -1,0 +1,35 @@
+<html lang="ko"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Array 연습1 </title>
+    </head>
+    <body>
+        <script>
+            var spring="봄", summer="여름",fall="가을",winter="겨울";
+            var seasons=["봄","여름","가을","겨울"];
+            var arr=[], a;
+
+            document.write(seasons[0] +'<br>');
+            document.write(seasons[1] +'<br>');
+            document.write(seasons[2] +'<br>');
+            document.write(seasons[3] +'<br>');
+            document.write(seasons + '<br>');
+            document.write("seasons 타입 : "+typeof(seasons)+'<br>');
+            document.write("빈 배열 타입 : "+typeof(arr)+'<br>');
+            document.write(typeof(a)+'<br>');
+            
+            //1. 기본 for문 활용
+            document.write("------기본for문-----<br>")
+            for(var i=0;i<seasons.length;i++){
+                document.write(seasons[i]+'<br>');
+            }
+            
+           
+            //2. 확장 for문
+            document.write("------확장for문-----<br>")
+            for(var s of seasons){
+                document.write(s + '<br>')
+            }
+        </script>
+    </body>
+</html>

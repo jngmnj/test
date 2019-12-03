@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>자바스크립트의 산술연산자</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h3>산술연산자</h3> <hr>
+        <script>
+            var num1 = 15, num2 = 4;
+            var grade1 = 3.8, grade2 = 4.3; grade3 = 15.0;
+            var str1 = "Javascript", str2="Programming",str3="80";
+
+            document.write(num1 + num2 +'<br>');//자바스크립트 태그는  ""도 괜찮지만 백엔드에서는 ''를 쓰기때문에 ''쓰는것이 좋다.
+            document.write(num1 - num2 + '<br>');
+            document.write(num1 / num2 + '<br>'); //나눗셈의 결과를 실수로 표현
+            document.write(num1 % num2 + '<br>');//나머지 구하기
+            document.write(num1++ + 30 + '<br>');
+            document.write(num1 + '<br>');
+            document.write(--num2 + 30 + '<br>');
+            document.write(num2 + '<br>');
+            document.write(num1 + grade1 + '<br><br>'); //정수+실수 연산 허용
+            document.write(str1 + str2 +'<br>');
+            document.write((num1 > num2) + '<br>');//연산자우선순위로 괄호 묶기
+            document.write((num1 < num2 )+ '<br>');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>자동형변환</title>
+    </head>
+    <body>
+        <h3>자동형변환</h3>
+        <script>
+            document.write((7+null) +'<br>');
+            document.write(("7"+null) +'<br>'); //연결
+            document.write(("7"+2) +'<br>'); //연결
+            document.write((2+"7") +'<br>'); //연결
+            document.write(("7"-2) +'<br>'); //5
+            document.write((2-"7") +'<br>'); //-5
+            document.write(("7"/"2") +'<br>'); //3.5
+            document.write(("7"*"2") +'<br>'); //14
+            document.write(("abc"-2) +'<br>'); //NaN
+            document.write(("abc"*2) +'<br>'); //NaN
+            document.write(("abc"/2) +'<br>'); //NaN
+        </script>
+    </body>
+</html>
